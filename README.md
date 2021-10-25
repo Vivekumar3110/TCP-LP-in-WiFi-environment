@@ -11,8 +11,8 @@ WiFi, with and without Rate Adaptation.</br>
 
 **Difficulty:** Moderate</br>
 
-**Recommended Reading:**
+**Recommended Reading:**</br>
 ● **TCP-LP:** A Distributed Algorithm for Low Priority Data Transfer
-Link: http://infocom2003.ieee-infocom.org/papers/41_04.PDF
+Link: http://infocom2003.ieee-infocom.org/papers/41_04.PDF</br>
 ● **Less-than-Best-Effort Service for Community Wireless Networks:** Challenges at Three
 Layers (http://ieeexplore.ieee.org/document/6814737/)</br>
