@@ -8,7 +8,7 @@ WiFi, with and without Rate Adaptation.</br>
 
 **Bonus experience:** Fundamentals of TCP-LP and ns-3</br>
 
-**Difficulty:** Moderate</br>
+
 
 **Recommended Reading:**</br>
 ● **[1] TCP-LP:** A Distributed Algorithm for Low Priority Data Transfer
