@@ -1,8 +1,7 @@
 # TCP-LP-in-WiFi-environment
 ## Exhaustive evaluation of TCP Low Priority (TCP-LP) in WiFi environments </br>
 
-**Brief:** TCP Low Priority is Less than Best Effort (LBE) transport, similar to LEDBAT. This
-project aims to evaluate the performance of TCP-LP in WiFi environments, including Gigabit
+**Brief:** TCP Low Priority (TCP-LP), a distributed algorithm whose goal is to utilize only the excess network bandwidth as compared to the “fair share” of bandwidth as targeted by TCP.[1] This assignment aims to thoroughy evaluate the performance of TCP-LP in WiFi environments, including Gigabit
 WiFi, with and without Rate Adaptation.</br>
 
 **Required experience:** C and C++</br>
@@ -12,7 +11,7 @@ WiFi, with and without Rate Adaptation.</br>
 **Difficulty:** Moderate</br>
 
 **Recommended Reading:**</br>
-● **TCP-LP:** A Distributed Algorithm for Low Priority Data Transfer
+● **[1] TCP-LP:** A Distributed Algorithm for Low Priority Data Transfer
 Link: http://infocom2003.ieee-infocom.org/papers/41_04.PDF</br>
-● **Less-than-Best-Effort Service for Community Wireless Networks:** Challenges at Three
+● **[2] Less-than-Best-Effort Service for Community Wireless Networks:** Challenges at Three
 Layers (http://ieeexplore.ieee.org/document/6814737/)</br>
