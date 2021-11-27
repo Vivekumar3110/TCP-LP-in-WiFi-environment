@@ -111,7 +111,7 @@ The Images for the topology are created by team itself by use of online availabl
            <td>
               <ul>
                 <li> Implementing the rest mentioned topologies.</li>
-                <li> Followed by analyzing the performance of TCP Ledbat for different Rate Adaptation Algorithms and generating plots. </li>
+                <li> Followed by analyzing the performance of TCP-LP for different Rate Adaptation Algorithms and generating plots. </li>
               </ul>
           </td>
         </tr>
