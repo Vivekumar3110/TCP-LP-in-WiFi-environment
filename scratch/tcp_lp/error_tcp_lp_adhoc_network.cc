@@ -1,4 +1,5 @@
 /*Vivek Kumar
+This code is not working properly.There are errors in the code.Rectify
 
 
                                n3
