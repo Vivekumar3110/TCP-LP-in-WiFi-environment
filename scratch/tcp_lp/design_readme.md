@@ -59,13 +59,15 @@ The Images for the topology are created by team itself by use of online availabl
 
 <ol>
   <li>  Simple pRp wireless network Tolpology <br />
-   <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-envioronment/"> <br />
+   <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/simple-pRp.drawio.png"> <br />
    <p> This is an simple node(STA)-AP-node(STA) Topology. The STAs will be configured to have a mobility model helping simulator to calculate received signal.
      </p>
     <br />
   </li>
       
-  <li> Wireless dumbell topology  <br /> <img src = ""> <br />
+  <li> Wireless dumbell topology  <br /> 
+    <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/dumbell.jpeg"> <br /> 
+    <br />
     <p>This is a Simple Dumbell Topology having 3 STA (which will be configured to have count decided during runtime) connected to a AP and another 3 nodes (which will be configured to have count decided during runtime) at right side  connected to router via P2P link. This topology is inspired from <a href="https://datatracker.ietf.org/doc/html/draft-irtf-iccrg-tcpeval">here</a>.
     </p>
     <br />
