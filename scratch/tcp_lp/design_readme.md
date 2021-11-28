@@ -1,7 +1,7 @@
 # Design Document for Exhaustive Evaluation of TCP-LP in WiFi Environment.
 
 
-## Overview :
+## Overview of TCP-lp :
 
 <p> 
   In this Project, we are evaluating TCP Low Priority (TCP-LP), a distributed algorithm whose goal is to utilize only the excess network bandwidth as compared to the "fair share" of bandwidth as targeted by TCP. The key mechanisms unique to TCP-LP congestion control are the use of one-way packet delays for congestion indications and a TCP-transparent congestion avoidance policy. Our simulation results show that: 
@@ -23,30 +23,15 @@
 
 
 
-## Goals and Deliverables :
+## What we wanted to do
 
-Clearly, the goal of this assignment is to come up with at least one to two exhaustive evaluation examples of programmes for analysing how TCP-LP performs in wireless environments (WLAN/Wifi).
-
-We have planned to come up with examples of programmes which are scalable in nature. Users can pass Command Line Arguments before running the programme to simulate (say)
-<ul>
- <li> For the desired simulation time</li>
- <li> For the desired rate adaptation algorithm </li>
- <li> For the desired error rate model/mobility </li>
- <li> For the desired number of nodes in BSS (in some of the programmes), </li>
- <li> For linkrate and linkdelay in some cases, e.t.c. </li>
-</ul>
-
-
-
-    
+Clearly, the goal of this assignment is to come up with at least one to two exhaustive evaluation examples of programmes for analysing how TCP-LP performs in wireless environments.We have planned to come up with examples of programmes which are scalable in nature. Users can pass Command Line Arguments before running the programme to simulate for the desired simulation time, the desired rate adaptation algorithm and error rate model.
 Finally, calculating Throughput and generating corresponding plots for evaluation purposes for the different command line arguments example for different rate adaptation algorithms.
-
-The Link Delays and Link Rate we did not specify in below images as that will be dynamic in nature and will depend upon the value entered by user (as mentioned in above section).
-
+The Link Delays and Link Rate we did not specify in below images as that will be dynamic in nature and will depend upon the value entered by user
 The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 802.11ac Gigabit Wifi Standards.
 <b r/>
 
-## Exhaustive Evaluation Examples ( Topology Design ) :
+### Topology Design used for evaluation :
  
  <p>
 
@@ -74,6 +59,13 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
     </p>
     <br />
   </li>
+  <li> Tree topology  <br /> 
+    <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/tree.jpeg"> <br /> 
+    <br />
+    <p>This is a treeTopology having tree like structure.In this topology,R1,R2,R3.......R10 are different routers/APs  having 2 STA connected to R9 and R1 as Source STA and Destination STA respectively.But we could not implement this topology.This topology is inspired from <a href="https://www.ijert.org/research/performance-evaluation-of-transmission-control-protocol-tcp-on-different-topologies-by-varying-impairments-IJERTCONV5IS20007.pdf">here</a>.
+    </p>
+    <br />
+  </li>
  </ol>
 
 
@@ -89,5 +81,6 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
   <li> <a href="https://datatracker.ietf.org/doc/html/draft-irtf-iccrg-tcpeval"> Common TCP Evaluation Suite draft-irtf-iccrg-tcpeval-01 </a> </li>
   <li> <a href="https://www.nsnam.org/docs/models/html/wifi-design.html"> Wi-Fi architecture in ns-3 </a> </li>
   <li> <a href="https://www.nsnam.org/docs/models/html/wifi-user.html"> User documentation for Wi-Fi simulations using ns-3 </a> </li>
+  <li> <a href="https://www.ijert.org/performance-evaluation-of-transmission-control-protocol-tcp-on-different-topologies-by-varying-impairments"> Performance Evaluation of Transmission Control Protocol (TCP) on Different Topologies by Varying Impairments </a> </li>
 </ol>
 
