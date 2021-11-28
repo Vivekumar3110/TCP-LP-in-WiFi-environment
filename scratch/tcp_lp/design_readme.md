@@ -42,6 +42,14 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
 <br />
 
 <ol>
+  <li> pRp topology  <br /> 
+    <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/pRp.png"> <br /> 
+    <br />
+    <p>In this topology,there are 2 station connected to same AP).
+      <b>We have implemented this topology to evaluate tcp-lp. Code is present in scrach/tcp_lp file named pRp_tcp-lp.cc which is sucessfully running.</b> 
+    </p>
+    <br />
+  </li>
   <li> Adhoc Network topology  <br /> 
     <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/Ad-Hoc%20Network.drawio.png"> <br /> 
     <br />
