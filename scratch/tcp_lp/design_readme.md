@@ -46,7 +46,7 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
     <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/pRp.png"> <br /> 
     <br />
     <p>In this topology,there are 2 station connected to same AP).
-      <b>We have implemented this topology to evaluate tcp-lp. Code is present in scrach/tcp_lp file named pRp_tcp-lp.cc which is sucessfully running.</b> 
+      <b>We have implemented this topology to evaluate tcp-lp. Code is present in scrach/tcp_lp file named <a href="https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/scratch/tcp_lp/pRp_tcp-lp.cc">pRp_tcp-lp.cc</a>  which is sucessfully running.</b> 
     </p>
     <br />
   </li>
@@ -54,7 +54,7 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
     <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/Ad-Hoc%20Network.drawio.png"> <br /> 
     <br />
     <p>In this topology,there are 6 nodes and two nodes are connected by  P2P link. And all these 3 P2P link is connected to WIFI.
-      <b>We have implemented this topology to evaluate tcp-lp.Code is present in scrach/tcp_lp file named Adhoc_topology_tcp-lp.cc which is sucessfully running.</b> 
+      <b>We have implemented this topology to evaluate tcp-lp.Code is present in scrach/tcp_lp file named <a href="https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/scratch/tcp_lp/adhoc_topology_tcp-lp.cc">Adhoc_topology_tcp-lp.cc</a> which is sucessfully running.</b> 
     </p>
     <br />
   </li>
