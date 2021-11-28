@@ -1,15 +1,11 @@
 /*Vivek Kumar
-
-
                                n3
                               /
                        P2P   / 
                             /
                            /
       P2P                n2
-
 n0-----------n1      WIFI
-
                          n4
                            \
                             \ 
@@ -18,7 +14,6 @@ n0-----------n1      WIFI
                                \
                                 n5
  It is working.                               
-
 */
 
 
@@ -34,6 +29,7 @@ n0-----------n1      WIFI
 #include "ns3/applications-module.h"
 #include "ns3/traffic-control-module.h"
 #include "ns3/flow-monitor-module.h"
+#include "ns3/command-line.h"
 #include "ns3/wifi-module.h"
 using namespace ns3;
 
@@ -71,8 +67,7 @@ int main (int argc, char *argv [])
     Time stopTime = Seconds (20);
     std::string raa = "ns3::ConstantRateWifiManager";    /*raa Rate Adaptation Algorithm */
 
-
-    CommandLine cmd (_FILE_);
+    CommandLine cmd (__FILE__);
     cmd.AddValue ("stopTime", "Stop time for simulation", stopTime);
     cmd.AddValue ("enablePcap", "Enable/Disable pcap generation of file", enablePcap);
     cmd.AddValue ("rateAdaptionAlgorithm", "Enter error rate adaptio algorithm to be used for wifi nodes", raa);
@@ -230,11 +225,11 @@ int main (int argc, char *argv [])
   anim.SetConstantPosition(wirelessNodes.Get(1),85.0,85.0);
 
 
-//  if (enablePcap)
-//     {
-//         channelphy.SetPcapDataLinkType (WifiPhyHelper::DLT_IEEE802_11_RADIO);
-//         channelphy.EnablePcapAll ("wifiLPNodes", true);
-//     }
+ if (enablePcap)
+    {
+        channelphy.SetPcapDataLinkType (WifiPhyHelper::DLT_IEEE802_11_RADIO);
+        channelphy.EnablePcapAll ("wifiLPNodes", true);
+    }
 
 if (enablePcap)
 {
