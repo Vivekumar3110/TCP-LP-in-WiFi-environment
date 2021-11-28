@@ -40,7 +40,6 @@ NS_LOG_COMPONENT_DEFINE ("TCP-LP-WIFI-EVALUATION");
 // FlowMonitor::FlowStatsContainer flowmonstatistics;
 uint32_t prev = 0;
 
-// Calculate goodput: Recieved Bytes are used for goodput calculation. 
 
 static void
 ThroughPut (Ptr<FlowMonitor> monitor)
