@@ -1,10 +1,17 @@
-# Planning/Design Document for Exhaustive Evaluation of TCP-LP in WiFi Environment.
+# Design Document for Exhaustive Evaluation of TCP-LP in WiFi Environment.
 
 
 ## Overview :
 
 <p> 
-  In this Project, we are evaluating TCP Low Priority (TCP-LP), a distributed algorithm whose goal is to utilize only the excess network bandwidth as compared to the "fair share" of bandwidth as targeted by TCP. The key mechanisms unique to TCP-LP congestion control are the use of one-way packet delays for congestion indications and a TCP-transparent congestion avoidance policy. Our simulation results show that: (1) TCP-LP is largely non-intrusive to TCP traffic; (2) both single and aggregate TCP-LP flows are able to successfully utilize excess network bandwidth; moreover, multiple TCP-LP flows share excess bandwidth fairly; (3) substantial amounts of excess bandwidth are available to low-priority class, even in the presence of "greedy" TCP flows; (4) the response times of web connections in the best-effort class decrease by up to 90% when long-lived bulk data transfers use TCP-LP rather than TCP.
+  In this Project, we are evaluating TCP Low Priority (TCP-LP), a distributed algorithm whose goal is to utilize only the excess network bandwidth as compared to the "fair share" of bandwidth as targeted by TCP. The key mechanisms unique to TCP-LP congestion control are the use of one-way packet delays for congestion indications and a TCP-transparent congestion avoidance policy. Our simulation results show that: 
+  <ul>
+    <li>TCP-LP is largely non-intrusive to TCP traffic.</li>
+    <li>both single and aggregate TCP-LP flows are able to successfully utilize excess network bandwidth;
+       moreover, multiple TCP-LP flows share excess bandwidth fairly.
+    <li> substantial amounts of excess bandwidth are available to low-priority class, even in the presence of "greedy" TCP flows.</li>
+     <li> the response times of web connections in the best-effort class decrease by up to 90% when long-lived bulk data transfers use TCP-LP rather than TCP.</li>
+     </ul>
   
 </p>
 
@@ -30,15 +37,7 @@ We have planned to come up with examples of programmes which are scalable in nat
 </ul>
 
 
-The required arguments for each programe can be accesible via `--help` flag as proper argument message will be display for better understanding.
 
-Example : 
-
-    ./waf --run "<tcplp-evaluation-filename> --simulationTime=300s --rateAdaptationAlgo=aarf errorRateModel=yansErrorRate"
-    
-For Running with default arguments just type following: 
-
-    ./waf --run  <tcplp-evaluation-filename> 
     
 Finally, calculating Throughput and generating corresponding plots for evaluation purposes for the different command line arguments example for different rate adaptation algorithms.
 
@@ -50,7 +49,7 @@ The Evaluation Examples Experiments are planned to carry out on 802.11 b/g and 8
 ## Exhaustive Evaluation Examples ( Topology Design ) :
  
  <p>
-The Images for the topology are created by team itself by use of online available tool  : https://app.diagrams.net/  
+
 
   
 </p>
@@ -58,17 +57,12 @@ The Images for the topology are created by team itself by use of online availabl
 <br />
 
 <ol>
-  <li>  Simple pRp wireless network Tolpology <br />
-   <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/simple-pRp.drawio.png"> <br />
-   <p> This is an simple node(STA)-AP-node(STA) Topology. The STAs will be configured to have a mobility model helping simulator to calculate received signal.
-     </p>
-    <br />
-  </li>
+  
       
   <li> Wireless dumbell topology  <br /> 
     <img src = "https://github.com/Vivekumar3110/TCP-LP-in-WiFi-environment/blob/tcp_lp/Topology-images/dumbell.jpeg"> <br /> 
     <br />
-    <p>This is a Simple Dumbell Topology having 3 STA (which will be configured to have count decided during runtime) connected to a AP and another 3 nodes (which will be configured to have count decided during runtime) at right side  connected to router via P2P link. This topology is inspired from <a href="https://datatracker.ietf.org/doc/html/draft-irtf-iccrg-tcpeval">here</a>.
+    <p>This is a Simple Dumbell Topology having 3 STA connected to a AP and another 3 nodes  at right side  connected to router via P2P link. This topology is inspired from <a href="https://datatracker.ietf.org/doc/html/draft-irtf-iccrg-tcpeval">here</a>.
     </p>
     <br />
   </li>
