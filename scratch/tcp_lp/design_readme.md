@@ -77,58 +77,7 @@ The Images for the topology are created by team itself by use of online availabl
 
 
 
-## Timelines :
-<br />
 
-  <table>
-    <thead>
-      <tr>
-        <th>Week</th>
-        <th>Task</th>
-      </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Week 1</td>
-            <td>
-              <ul>
-                <li> Revising ns3 documentation.</li>
-                <li> Reading helper classes. </li>
-                <li> Understanding code-base for WiFi module a listed in References. </li>
-                <li> Implementation will be Initiated.</li>
-              </ul>
-          </td>
-        </tr>
-        <tr>
-            <td>Week 2</td>
-           <td>
-              <ul>
-                <li> Starting to work with simple P-R-P, Simple dumbell and Star. </li>
-                <li> Analyze performance measuring throughput and generating graphs. </li>
-              </ul>
-          </td>
-        </tr>
-      <tr>
-            <td>Week 3</td>
-           <td>
-              <ul>
-                <li> Implementing the rest mentioned topologies.</li>
-                <li> Followed by analyzing the performance of TCP-LP for different Rate Adaptation Algorithms and generating plots. </li>
-              </ul>
-          </td>
-        </tr>
-      <tr>
-            <td>Week 4</td>
-           <td>
-              <ul>
-                <li> Working on Documentation of all those topologies stating the configuration done. </li>
-              </ul>
-          </td>
-        </tr>
-    </tbody>
-  </table>
-
-<br />
 
 ## References :
 
